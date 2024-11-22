@@ -27,7 +27,8 @@ const Blog = () => {
   ];
 
   return (
-    <section className="w-5/6 mx-auto bg-gray-100 dark:bg-gray-900 py-16">
+    <div id="blog" className="section">
+      <section className="w-5/6 mx-auto bg-gray-100 dark:bg-gray-900 py-16">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12 animate-fade-in">
         {"</Blogs>"}
@@ -69,6 +70,7 @@ const Blog = () => {
         </div>
       </div>
     </section>
+    </div>
   );
   };
   

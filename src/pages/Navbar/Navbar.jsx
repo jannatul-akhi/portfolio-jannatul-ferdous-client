@@ -43,7 +43,7 @@ const Navbar = () => {
             Blog
           </li>
         </a>
-        <a href="#contact">
+        <a href="#footer">
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-800 hover:bg-gray-800 hover:text-gray-200">
             Contact
           </li>

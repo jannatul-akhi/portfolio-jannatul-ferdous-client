@@ -18,7 +18,7 @@ const Skill = () => {
   return (
 
 
-    <div className="w-5/6 mx-auto rounded-lg lg:flex-row items-center justify-between pt-10 px-4 lg:px-20 text-black dark:bg-gradient-to-r from-indigo-700 to-pink-700 dark:text-white mt-5 pb-10">
+    <div id="skills" className="section w-5/6 mx-auto rounded-lg lg:flex-row items-center justify-between pt-10 px-4 lg:px-20 text-black dark:bg-gradient-to-r from-indigo-700 to-pink-700 dark:text-white mt-5 pb-10">
       <h2 className="text-4xl font-bold mb-4 text-center animate-fade-in hover:animate-ping">
         {"</Skills>"}
       </h2>

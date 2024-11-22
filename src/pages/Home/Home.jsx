@@ -3,7 +3,8 @@ import resume from "../../assets/Resume/jannatul_ferdous.pdf"
 
 const Home = () => {
   return (
-    <section className="w-5/6 mx-auto rounded-lg hero flex flex-col-reverse lg:flex-row items-center justify-between py-20 px-4 lg:px-20 dark:bg-gradient-to-r from-pink-700 to-indigo-700 text-white mt-5 ">
+    <div id="home" className="section">
+      <section className="w-5/6 mx-auto rounded-lg hero flex flex-col-reverse lg:flex-row items-center justify-between py-20 px-4 lg:px-20 dark:bg-gradient-to-r from-pink-700 to-indigo-700 text-white mt-5 ">
       <div className="w-full lg:w-1/2 flex flex-col items-start space-y-7 animate-slideRight">
         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white">
           <span className="dark:text-black text-pink-800 ">Hi!</span> I am{" "}
@@ -40,6 +41,7 @@ const Home = () => {
         />
       </div>
     </section>
+    </div>
   );
 };
 

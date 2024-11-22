@@ -27,7 +27,8 @@ const Projects = () => {
       ];
     
       return (
-        <section className="w-5/6 mx-auto bg-gray-100 dark:bg-gray-800 text-black dark:text-white py-16 animate-slideDown">
+        <div id="projects" className="section">
+          <section className="w-5/6 mx-auto bg-gray-100 dark:bg-gray-800 text-black dark:text-white py-16 animate-slideDown">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <h2 className="text-4xl font-bold text-center mb-10">{"</Projects>"}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -66,6 +67,7 @@ const Projects = () => {
             </div>
           </div>
         </section>
+        </div>
       );
 };
 
