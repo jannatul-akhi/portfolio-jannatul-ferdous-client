@@ -1,27 +1,31 @@
+import javascript from "../../assets/Images/javascript.jpg"
+import responsive from "../../assets/Images/responsive.jpg"
+import nextjs from "../../assets/Images/nextjs.jpg"
+
 const Blog = () => {
   const blogs = [
     {
       title: "Exploring Modern JavaScript Features",
       description:
-        "Learn about the latest JavaScript features and how they can simplify your development process.",
+        "JavaScript has come a long way, evolving into a language full of powerful features that make coding cleaner, faster, and more efficient. Let’s explore some modern JS features you can start using today!",
       date: "November 12, 2024",
-      image: "https://via.placeholder.com/600x400", // Replace with actual image
+      image: javascript, // Replace with actual image
       link: "/blog/javascript-features",
     },
     {
       title: "Building Responsive Web Apps",
       description:
-        "A guide to creating stunning, mobile-friendly web apps using modern CSS frameworks.",
+        "In today’s mobile-first world, building responsive web apps isn’t optional; it’s essential. Let’s dive into best practices and tools to create stunning web apps that look great on any screen size.",
       date: "October 20, 2024",
-      image: "https://via.placeholder.com/600x400", // Replace with actual image
+      image: responsive, // Replace with actual image
       link: "/blog/responsive-web",
     },
     {
-      title: "Demystifying GraphQL",
+      title: "Exploring Next.js: The Go-To Framework for Modern Web Development",
       description:
-        "An introduction to GraphQL and how it can improve your API development workflow.",
+        "Next.js has taken the web development world by storm, offering features like server-side rendering and static site generation out of the box. Here’s why it’s the perfect choice for modern web apps.",
       date: "September 28, 2024",
-      image: "https://via.placeholder.com/600x400", // Replace with actual image
+      image: nextjs, // Replace with actual image
       link: "/blog/graphql-intro",
     },
   ];

@@ -18,12 +18,12 @@ const Skill = () => {
   return (
 
 
-    <div id="skills" className="section w-5/6 mx-auto rounded-lg lg:flex-row items-center justify-between pt-10 px-4 lg:px-20 text-black dark:bg-gradient-to-r from-indigo-700 to-pink-700 dark:text-white mt-5 pb-10">
-      <h2 className="text-4xl font-bold mb-4 text-center animate-fade-in hover:animate-ping">
+    <div id="skills" className="section w-5/6 mx-auto rounded-lg lg:flex-row items-center justify-between pt-10 px-4 lg:px-20 text-black bg-gray-200 dark:bg-gray-800 dark:text-white mt-5 pb-10">
+      <h2 className="text-4xl font-bold mb-4 text-center animate-fade-in">
         {"</Skills>"}
       </h2>
-      <h4 className="text-xl font-bold text-black dark:text-gray-200 mt-5 animate-slideLeft text-center">Technological Skills</h4>
-      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+      <h4 className="text-xl font-bold text-black dark:text-gray-200 mt-5 animate-bounce-in text-center">Technological Skills</h4>
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-6 mt-16">
         {[
           { img: htmlImg, name: "HTML" },
           { img: cssImg, name: "CSS" },
@@ -48,12 +48,12 @@ const Skill = () => {
         ))}
       </div>
 
-      <h4 className="text-xl font-bold dark:text-gray-200 text-center mt-10 animate-slideLeft text-black mb-5">Soft Skills</h4>
+      <h4 className="text-xl font-bold dark:text-gray-200 text-center mt-10 animate-bounce-in text-black mb-5">Soft Skills</h4>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-3 animate-bounce-in">
-        <h5 className="text-md font-bold border border-black dark:border-white  p-4 rounded-lg text-center animate-fade-in hover:animate-bounce">Time Management</h5>
-        <h5 className="text-md font-bold border border-black dark:border-white  p-4 rounded-lg text-center animate-fade-in hover:animate-bounce">Communication</h5>
-        <h5 className="text-md font-bold border border-black dark:border-white p-4 rounded-lg text-center animate-fade-in hover:animate-bounce">Problem Solving</h5>
-        <h5 className="text-md font-bold border border-black dark:border-white p-4 rounded-lg text-center animate-fade-in hover:animate-bounce">Quick Learner</h5>
+        <h5 className="text-md font-bold border border-black dark:border-white  p-4 rounded-lg text-center animate-fade-in hover:scale-105">Time Management</h5>
+        <h5 className="text-md font-bold border border-black dark:border-white  p-4 rounded-lg text-center animate-fade-in hover:scale-105">Communication</h5>
+        <h5 className="text-md font-bold border border-black dark:border-white p-4 rounded-lg text-center animate-fade-in hover:scale-105">Problem Solving</h5>
+        <h5 className="text-md font-bold border border-black dark:border-white p-4 rounded-lg text-center animate-fade-in hover:scale-105">Quick Learner</h5>
 
       </div>
       

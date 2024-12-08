@@ -10,7 +10,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center mt-14">
           {/* Left Side - Biography */}
           <div className="flex justify-center items-center relative">
-            <div className="border-4 border-gray-700 rounded-md overflow-hidden w-72 h-72 shadow-xl">
+            <div className="border-4 border-gray-700 rounded-md overflow-hidden w-72 h-72 shadow-xl hover:animate-fade-in">
               <img
                 src={img2}
                 alt="Jannatul Ferdous"

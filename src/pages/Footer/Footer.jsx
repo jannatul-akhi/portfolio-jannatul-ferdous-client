@@ -31,7 +31,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-pink-400"
                 >
-                  <FontAwesomeIcon icon={faFacebook} size="2x" color="#3b6898" />
+                  <FontAwesomeIcon icon={faFacebook} size="2x" className="text-pink-500 hover:text-3xl" />
                 </a>
               </li>
               <li>
@@ -41,7 +41,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-pink-400"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0077b5" />
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" className="text-pink-500 hover:text-3xl" />
                 </a>
               </li>
               <li>
@@ -51,7 +51,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-pink-400"
                 >
-                 <FontAwesomeIcon icon={faGithub} size="2x" color="#d6d4d4" />
+                 <FontAwesomeIcon icon={faGithub} size="2x" className="text-pink-500 hover:text-3xl" />
                 </a>
               </li>
             </ul>
