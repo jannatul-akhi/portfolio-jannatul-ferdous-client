@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: "class",
@@ -6,12 +5,12 @@ export default {
   theme: {
     extend: {
       animation: {
-        "scaleUp": "scaleUp 0.5s ease-in-out",
+        scaleUp: "scaleUp 0.5s ease-in-out",
         "fade-in": "fadeIn 1.5s ease-in-out",
         "bounce-in": "bounceIn 1s ease-in-out",
-        "slideRight": "slideRight 1.2s ease-in-out",
-        "slideLeft": "slideLeft 1.2s ease-in-out",
-        "slideDown": "slideDown 1.2s ease-in-out",
+        slideRight: "slideRight 1.2s ease-in-out",
+        slideLeft: "slideLeft 1.2s ease-in-out",
+        slideDown: "slideDown 1.2s ease-in-out",
       },
       keyframes: {
         scaleUp: {
@@ -42,5 +41,5 @@ export default {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 };

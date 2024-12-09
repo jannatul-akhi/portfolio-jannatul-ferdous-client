@@ -11,6 +11,7 @@ import gitImg from "../../assets/Images/git.png"
 import githubImg from "../../assets/Images/GitHub.png"
 import expressImg from "../../assets/Images/express.png"
 import mongodbImg from "../../assets/Images/mongodb.png"
+import Navbar from "../Navbar/Navbar"
 
 const Skill = () => {
   
@@ -18,12 +19,14 @@ const Skill = () => {
   return (
 
 
-    <div id="skills" className="section w-5/6 mx-auto rounded-lg lg:flex-row items-center justify-between pt-10 px-4 lg:px-20 text-black bg-gray-200 dark:bg-gray-800 dark:text-white mt-5 pb-10">
+    <div>
+      <Navbar></Navbar>
+      <div className="section w-5/6 mx-auto rounded-lg lg:flex-row items-center justify-between pt-10 px-4 lg:px-20 text-black bg-gray-200 dark:bg-gray-800 dark:text-white mt-16 pb-10">
       <h2 className="text-4xl font-bold mb-4 text-center animate-fade-in">
         {"</Skills>"}
       </h2>
       <h4 className="text-xl font-bold text-black dark:text-gray-200 mt-5 animate-bounce-in text-center">Technological Skills</h4>
-      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-6 mt-16">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-6 mt-2">
         {[
           { img: htmlImg, name: "HTML" },
           { img: cssImg, name: "CSS" },
@@ -58,6 +61,7 @@ const Skill = () => {
       </div>
       
       
+    </div>
     </div>
 
   );

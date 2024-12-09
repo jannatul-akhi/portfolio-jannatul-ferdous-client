@@ -1,11 +1,13 @@
 import img2 from "../../assets/Images/img2.png";
 import Education from "../../components/Education/Education";
 import Experience from "../../components/Experiences/Experience";
+import Navbar from "../Navbar/Navbar";
 
 const About = () => {
   return (
-    <div id="about" className="section">
-      <section className="text-black dark:text-white mx-auto py-16 px-32 mt-4 md:w-full">
+    <div id="about">
+      <Navbar></Navbar>
+      <section className="text-black dark:text-white mx-auto pt-16 px-32 mt-10 md:w-full">
         <h2 className="text-4xl font-bold mb-4 text-center animate-fade-in hover:animate-pulse">{"</About Me>"}</h2>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center mt-14">
           {/* Left Side - Biography */}

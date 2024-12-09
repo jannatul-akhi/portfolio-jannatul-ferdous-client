@@ -1,6 +1,7 @@
 import car from "../../assets/Images/car-wash.jpg"
 import travel from "../../assets/Images/travel.jpg"
 import aero from "../../assets/Images/GoAero.jpg"
+import Navbar from "../Navbar/Navbar";
 
 const Projects = () => {
   const projectList = [
@@ -31,8 +32,9 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="section">
-      <section className="w-5/6 mx-auto bg-gray-100 dark:bg-gray-900 text-black dark:text-white py-16 animate-slideDown">
+    <div >
+      <Navbar></Navbar>
+      <section className="w-5/6 mx-auto bg-gray-100 dark:bg-gray-900 text-black dark:text-white pt-16 mt-16 animate-slideDown">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <h2 className="text-4xl font-bold text-center mb-10">
             {"</Projects>"}

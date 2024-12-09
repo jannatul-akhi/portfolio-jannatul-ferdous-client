@@ -7,6 +7,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   const text = "Frontend Web Developer";
@@ -33,8 +34,9 @@ const Home = () => {
     }, [index, text]);
 
   return (
-    <div id="home" className="section ">
-      <section className="w-5/6 mx-auto rounded-lg hero flex flex-col-reverse lg:flex-row items-center justify-between py-10 px-4 lg:px-20  text-white mt-5 dark:bg-gray-800">
+    <div id="home">
+      <Navbar></Navbar>
+      <section className="w-5/6 mx-auto rounded-lg hero flex flex-col-reverse lg:flex-row items-center justify-between py-10 px-4 lg:px-20  text-white mt-14 dark:bg-gray-800">
       <div className="w-full lg:w-1/2 flex flex-col items-start space-y-7 animate-slideRight">
         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white">
           <span className=" text-pink-800 ">Hi!</span> I am{" "}
