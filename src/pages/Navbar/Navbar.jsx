@@ -16,7 +16,7 @@ const Navbar = () => {
           menu ? "block" : "hidden"
         } mx-24 pb-4 mt-4 font-semibold bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-4`}
       >
-        <Link to={"/home"}>
+        <Link to={"/#home"}>
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-900 hover:bg-gray-800 hover:text-gray-200">
             Home
           </li>

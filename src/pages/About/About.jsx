@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id="about">
       <Navbar></Navbar>
-      <section className="text-black dark:text-white mx-auto pt-16 px-32 mt-10 md:w-full">
+      <section className="text-black dark:text-white dark:bg-gray-800 mx-auto pt-16 px-32 mt-10 md:w-full">
         <h2 className="text-4xl font-bold mb-4 text-center animate-fade-in hover:animate-pulse">{"</About Me>"}</h2>
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center mt-14">
           {/* Left Side - Biography */}
