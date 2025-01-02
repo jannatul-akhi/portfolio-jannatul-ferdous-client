@@ -5,6 +5,7 @@ import Skill from "./pages/Skill/Skill";
 import Footer from "./pages/Footer/Footer";
 import Projects from "./pages/Projects/Projects";
 import Blog from "./pages/Blog/Blog";
+import FigmaProjects from "./pages/FigmaProject/FigmaProject";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Home></Home>
         <About></About>
         <Skill></Skill>
+        <FigmaProjects></FigmaProjects>
         <Projects></Projects>
         <Blog></Blog>
         <Footer></Footer>

@@ -7,6 +7,7 @@ import Projects from "../pages/Projects/Projects";
 import Blog from "../pages/Blog/Blog";
 import Footer from "../pages/Footer/Footer";
 import Blog1 from "../components/Blog1/Blog1";
+import FigmaProjects from "../pages/FigmaProject/FigmaProject";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
     {
       path: "/skill",
       element: <Skill />
+    },
+    {
+      path: "/figma_projects",
+      element: <FigmaProjects />
     },
     {
       path: "/projects",
