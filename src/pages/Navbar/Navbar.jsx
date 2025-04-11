@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav
       id="home"
-      className="fixed top-0 left-0 w-full flex flex-wrap justify-between items-center text-black dark:text-white px-10 pt-6 md:px-20 dark:bg-gray-800 bg-white shadow-md z-50"
+      className="fixed top-0 left-0 w-full flex flex-wrap justify-between items-center text-black dark:text-white px-10 pt-6 md:px-20 dark:bg-gray-800 bg-white  z-50"
     >
       <ul
         className={`${
