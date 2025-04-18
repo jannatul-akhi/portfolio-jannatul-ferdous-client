@@ -9,34 +9,34 @@ const Navbar = () => {
   return (
     <nav
       id="home"
-      className="fixed top-0 left-0 w-full flex flex-wrap justify-between items-center text-black dark:text-white px-10 pt-6 md:px-20 dark:bg-gray-800 bg-white  z-50"
+      className="fixed top-0 left-0 w-full flex flex-wrap justify-between items-center text-black dark:text-white px-10 pt-6 md:px-20 dark:bg-gray-800 bg-white z-50"
     >
       <ul
         className={`${
           menu ? "block" : "hidden"
         } mx-24 pb-4 mt-4 font-semibold bg-black px-2 rounded-xl bg-opacity-30 md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-4`}
       >
-        <Link to={"/#home"}>
+        <Link to="/">
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-900 hover:bg-gray-800 hover:text-gray-200">
             Home
           </li>
         </Link>
-        <Link to={"/about"}>
+        <Link to="/about">
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-900 hover:bg-gray-800 hover:text-gray-200">
             About
           </li>
         </Link>
-        <Link to={"/skill"}>
+        <Link to="/skill">
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-900 hover:bg-gray-800 hover:text-gray-200">
             Skills
           </li>
         </Link>
-        <Link to={"/projects"}>
+        <Link to="/projects">
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-900 hover:bg-gray-800 hover:text-gray-200">
             Projects
           </li>
         </Link>
-        <Link to={"/blog"}>
+        <Link to="/blog">
           <li className="text-md transition-all duration-300 p-2 md:p-2 rounded-lg dark:hover:bg-gray-900 hover:bg-gray-800 hover:text-gray-200">
             Blog
           </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <div>
         <ul className="flex gap-4 mt-4">
-          <Link to={"/#home"}>
+          <Link to="/">
           <h1 className="text-2xl font-semibold">
             <span className="text-pink-800">Jannatul</span> Ferdous
           </h1>
